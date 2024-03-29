@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thông tin sinh viên</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <div class="icon"><i class="bi bi-list"></i></div>
+        <div class="thongtin-head">
+          <select id="hocky">
+            <option value="k1">Học kỳ 1-2022-2023</option>
+            <option value="k2">Học kỳ 2-2022-2023</option>
+            <option value="k3">Học kỳ 1-2023-2024</option>
+            <option value="k4">Học kỳ 2-2023-2024</option>
+          </select>
+          <img src="" alt="LƯU THỊ TỐ AN-22IT001" />
+        </div>
+      </div>
+      <div class="content">
+        <div class="left">
+          <center><h3>LƯU THỊ TỐ AN</h3></center>
+          <center>
+            <div class="msv">
+              <p><i class="fa fa-id-card-alt mr-2"></i>MSV 22IT001</p>
+              <p><i class="fa fa-briefcase mr-2"></i>Lớp 22SE2</p>
+              <p><i class="fa fa-briefcase mr-2"></i>KHÓA 2022-2027</p>
+            </div>
+          </center>
+          <center>
+            <div class="chuyennganh">
+              <p>
+                <i class="fa fa-briefcase mr-2"></i>
+                NGÀNH CHUYÊN NGÀNH KỸ THUẬT PHẦN MỀM
+                <center><span>(KỸ SƯ)</span></center>
+              </p>
+
+              <div class="khoa">
+                <center>
+                  <p><i class="fa fa-briefcase mr-2"></i>KHOA HỌC MÁY TÍNH</p>
+                </center>
+              </div>
+            </div>
+          </center>
+          <center>
+            <div class="button-left">
+              <button type="submit" id="sua">
+                <i class="fa fa-edit m-right-xs mr-1"></i>SỬA HỒ SƠ
+              </button>
+              <button type="submit" id="xuat">XUẤT LÝ LỊCH</button>
+            </div>
+          </center>
+          <div class="canhan">
+            <ul>
+              <li>
+                <a href="#canhan"><i class="bi bi-person-fill"></i> Cá nhân</a>
+              </li>
+              <li>
+                <a href="#khenthuongkyluat"
+                  ><i class="bi bi-star-fill"></i> Khen thưởng kỷ luật</a
+                >
+              </li>
+              <li>
+                <a href="#renluyen"><i class="bi bi-check-lg"></i> Rèn luyện</a>
+              </li>
+              <li>
+                <a href="#Tamtru"><i class="bi bi-cursor-fill"></i>Tạm trú</a>
+              </li>
+              <li>
+                <a href="#Nhatky"
+                  ><i class="bi bi-bullseye"></i> Nhật ký hoạt động</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="right">
+          <div class="thongtincanhan">
+            <div class="thongtincanhan-h4">
+              <h4>
+                <i class="fa fa-user-md" aria-hidden="true"></i>
+                Thông tin cá nhân
+              </h4>
+            </div>
+            <hr />
+            <div class="canhan-a">
+              <div class="hoten">Họ và tên</div>
+              <div class="ten" style="opacity: 0.6">LƯU THỊ TỐ AN</div>
+            </div>
+            <div class="ngaysinh">
+              <div class="ngaysinh-lable">Ngày sinh</div>
+              <div class="ngaysinh-text" style="opacity: 0.6">2004-11-16</div>
+              <div class="noisinh-lable">Nơi sinh</div>
+              <div class="noisinh-text" style="opacity: 0.6">Bình Định</div>
+            </div>
+            <div class="gioitinh">
+              <div class="gioitinh-lable">Giới tính</div>
+              <div class="gioitinh-text" style="opacity: 0.6">Nữ</div>
+              <div class="dantoc-lable">Dân tộc</div>
+              <div class="dantoc-text" style="opacity: 0.6">Kinh</div>
+            </div>
+            <div class="cmnd">
+              <div class="cmnd-lable">CMND</div>
+              <div class="cmnd-text" style="opacity: 0.6">052304006401</div>
+              <div class="ngaycap-lable">Ngày cấp</div>
+              <div class="ngaycap-text"></div>
+              <div class="noicap-lable">Nơi cấp</div>
+              <div class="noicap-text"></div>
+            </div>
+            <div class="cccd">
+              <div class="cccd-lable">CCCD</div>
+              <div class="cccd-text" style="opacity: 0.6">052304006401</div>
+              <div class="ngaycap1-lable">Ngày cấp <br />CCCD</div>
+              <div class="ngaycap1-text" style="opacity: 0.6">2021-09-16</div>
+              <div class="noicap1-lable">Nơi cấp<br />CCCD</div>
+              <div class="noicap1-text" style="opacity: 0.6">
+                Cục cảnh sát quản lý <br />
+                hành chính về trật tự <br />
+                xã hội
+              </div>
+            </div>
+            <div class="doanthe">
+              <div class="doanthe-lable">Đoàn thể</div>
+              <div class="doanthe-text">Không</div>
+              <div class="ketnap-lable">
+                Ngày kết <br />
+                nạp
+              </div>
+              <div class="ketnap-text" style="opacity: 0.6">2019-10-20</div>
+              <div class="tongiao-lable">Tôn giáo</div>
+              <div class="tongiao-text" style="opacity: 0.6"></div>
+            </div>
+          </div>
+          <div class="thongtingiadinh">
+            <div class="thongtingiadinh-h4">
+              <h4><i class="fa fa-users mr-2"></i>Thông tin gia đình</h4>
+            </div>
+            <hr />
+            <div class="ten-gd">
+              <div class="cha">
+                <div class="box"></div>
+                <div class="cha-lable"><h4>Cha</h4></div>
+                <div class="box1"></div>
+                <div class="cha-lable"><h4>Mẹ</h4></div>
+              </div>
+              <div class="hoten-giadinh">
+                <div class="hotencha-lable">Họ tên</div>
+                <div class="hotencha-text" style="opacity: 0.6">
+                  LƯU VĂN PHÚ
+                </div>
+                <div class="hotenme-lable">Họ tên</div>
+                <div class="hotenme-text" style="opacity: 0.6">
+                  NGUYỄN THỊ THÚY LAN
+                </div>
+              </div>
+              <div class="ngaysinh-giadinh">
+                <div class="ngaysinh1-lable">Ngày sinh</div>
+                <div class="ngaysinh1-text" style="opacity: 0.6">1980</div>
+                <div class="ngaysinh2-lable">Ngày sinh</div>
+                <div class="ngaysinh2-text" style="opacity: 0.6">1982</div>
+              </div>
+              <div class="dantoc-giadinh">
+                <div class="dantoc1-lable">Dân tộc</div>
+                <div class="dantoc1-text" style="opacity: 0.6">KINH</div>
+                <div class="dantoc2-lable">Dân tộc</div>
+                <div class="dantoc2-text" style="opacity: 0.6">KINH</div>
+              </div>
+              <div class="cmnd-cccd">
+                <div class="cccd1-lable">CMND/CCCD</div>
+                <div class="cccd1-text" style="opacity: 0.6">042080004931</div>
+                <div class="cccd2-lable">CMND/CCCD</div>
+                <div class="cccd2-text" style="opacity: 0.6">042182015776</div>
+              </div>
+              <div class="nghenghiep-giadinh">
+                <div class="nghenghiep1-lable">Nghề nghiệp</div>
+                <div class="nghenghiep1-text" style="opacity: 0.6">Nuôi cá</div>
+                <div class="nghenghiep2-lable">Nghề nghiệp</div>
+                <div class="nghenghiep2-text" style="opacity: 0.6">Nội trợ</div>
+              </div>
+              <div class="noio-giadinh">
+                <div class="noio1-lable">Nơi ở</div>
+                <div class="noio1-text" style="opacity: 0.6">
+                  Tổ 46-Khu vực 9- Phường <br />Hải Cảng-TP Quy Nhơn-<br />Bình
+                  Định
+                </div>
+                <div class="noio2-lable">Nơi ở</div>
+                <div class="noio2-text" style="opacity: 0.6">
+                  Tổ 46-Khu vực 9- Phường <br />Hải Cảng-TP Quy Nhơn-<br />Bình
+                  Định
+                </div>
+              </div>
+              <div class="email">
+                <div class="email1-lable">Email</div>
+                <div class="email1-text"></div>
+                <div class="email2-lable">Email</div>
+                <div class="email2-text"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

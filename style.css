@@ -1,0 +1,610 @@
+.container {
+  background: #2a3f54;
+  width: 100%;
+  height: 100%;
+}
+.head {
+  width: 100%;
+  background: #cccccc;
+  margin-bottom: 10px;
+  display: flex;
+  height: 10%;
+}
+
+.icon {
+  flex: 0.1;
+}
+
+.thongtin-head {
+  flex: 1;
+  text-align: right;
+}
+
+#hocky {
+  margin-right: 10px;
+  background: #cccccc;
+  border: #cccccc;
+}
+
+.content {
+  background: white;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.left {
+  background: white;
+  height: 90%;
+  width: 30%;
+}
+
+h3 {
+  margin-top: 150px;
+}
+.msv p {
+  display: inline-block;
+
+  color: blue;
+  margin-right: 9px;
+}
+
+.chuyennganh p {
+  color: blue;
+  margin-bottom: 0;
+  margin-top: 2px;
+}
+
+.khoa {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#sua {
+  background-color: #26b99a;
+  border: #26b99a;
+  height: 28px;
+  width: 110px;
+  border-radius: 2px;
+  margin-right: 10px;
+  color: white;
+}
+
+#xuat {
+  background-color: red;
+  border: red;
+  height: 28px;
+  width: 110px;
+  border-radius: 2px;
+  color: white;
+}
+
+.chuyennganh span {
+  color: blue;
+}
+
+.canhan {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.canhan ul {
+  list-style-type: none;
+}
+
+.canhan li {
+  margin-top: 15px;
+}
+
+.canhan a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 35px;
+  margin-left: -50px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.canhan a:hover {
+  background-color: #e5f7ff;
+  width: 95%;
+  font-size: 110%;
+}
+
+.right {
+  width: 80%;
+  height: 90%;
+  background: white;
+}
+
+.thongtincanhan {
+  background: white;
+  height: 50%;
+  width: 95%;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.canhan-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .canhan-a {
+    flex-direction: row;
+  }
+
+  .hoten,
+  .ten {
+    margin-right: 290px;
+  }
+}
+
+.ngaysinh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .ngaysinh {
+    flex-direction: row;
+  }
+
+  .ngaysinh-lable,
+  .ngaysinh-text {
+    margin-right: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .noisinh {
+    flex-direction: row;
+  }
+
+  .noisinh-lable {
+    margin-left: 50px;
+  }
+
+  .noisinh-lable,
+  .noisinh-text {
+    margin-right: 50px;
+  }
+}
+
+.gioitinh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .gioitinh {
+    flex-direction: row;
+  }
+
+  .gioitinh-lable,
+  .gioitinh-text {
+    margin-right: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dantoc {
+    flex-direction: row;
+  }
+
+  .dantoc-lable {
+    margin-left: 100px;
+  }
+
+  .dantoc-lable,
+  .dantoc-text {
+    margin-right: 54.2px;
+  }
+}
+
+.cmnd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .cmnd {
+    flex-direction: row;
+  }
+
+  .cmnd-lable,
+  .cmnd-text {
+    margin-right: 82px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ngaycap {
+    flex-direction: row;
+  }
+
+  .ngaycap-lable {
+    margin-left: 7.2px;
+    margin-top: 10px;
+  }
+
+  .ngaycap-lable,
+  .ngaycap-text {
+    margin-right: 110px;
+  }
+}
+
+.cccd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .cccd {
+    flex-direction: row;
+  }
+
+  .cccd-lable,
+  .cccd-text {
+    margin-right: 89px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ngaycap1 {
+    flex-direction: row;
+  }
+
+  .ngaycap1-lable {
+    margin-left: 0.6px;
+  }
+
+  .ngaycap1-lable,
+  .ngaycap1-text {
+    margin-right: 42px;
+  }
+}
+
+@media (min-width: 768px) {
+  .noicap1 {
+    flex-direction: row;
+  }
+
+  .noicap1-lable {
+    margin-left: 53.6px;
+  }
+
+  .noicap1-lable,
+  .noicap1-text {
+    margin-right: 92px;
+  }
+}
+
+.doanthe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .doanthe {
+    flex-direction: row;
+  }
+
+  .doanthe-lable,
+  .doanthe-text {
+    margin-right: 64px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ketnap {
+    flex-direction: row;
+  }
+
+  .ketnap-lable {
+    margin-left: 83px;
+  }
+
+  .ketnap-lable,
+  .ketnap-text {
+    margin-right: 47px;
+  }
+}
+
+@media (min-width: 768px) {
+  .tongiao {
+    flex-direction: row;
+  }
+
+  .tongiao-lable {
+    margin-left: 46px;
+  }
+
+  .tongiao-lable,
+  .tongiao-text {
+    margin-right: 47px;
+  }
+}
+
+.thongtingiadinh {
+  background: white;
+  height: 50%;
+  width: 95%;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.cha,
+.me {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  width: 3px;
+  height: 25px;
+  background-color: red;
+  margin-right: 2px;
+}
+
+.box1 {
+  width: 3px;
+  height: 25px;
+  background-color: red;
+  margin-right: 2px;
+  margin-left: 30vw;
+}
+
+.hoten-giadinh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  margin-top: -5px;
+}
+
+@media (min-width: 768px) {
+  .hoten-giadinh {
+    flex-direction: row;
+    margin-left: 9px;
+  }
+
+  .hotencha-lable,
+  .hotencha-text {
+    margin-right: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hotenme {
+    flex-direction: row;
+  }
+
+  .hotenme-lable {
+    margin-left: 9.5vw;
+  }
+
+  .hotenme-lable,
+  .hotenme-text {
+    margin-right: 100px;
+  }
+}
+
+.ngaysinh-giadinh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .ngaysinh-giadinh {
+    flex-direction: row;
+    margin-left: 9px;
+  }
+
+  .ngaysinh1-lable,
+  .ngaysinh1-text {
+    margin-right: 76px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ngaysinh2-lable {
+    margin-left: 15.5vw;
+  }
+
+  .ngaysinh2-lable,
+  .ngaysinh2-text {
+    margin-right: 76px;
+  }
+}
+
+.dantoc-giadinh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .dantoc-giadinh {
+    flex-direction: row;
+    margin-left: 9px;
+  }
+
+  .dantoc1-lable,
+  .dantoc1-text {
+    margin-right: 93px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dantoc2-lable {
+    margin-left: 14.2vw;
+  }
+
+  .dantoc2-lable,
+  .dantoc2-text {
+    margin-right: 93px;
+  }
+}
+
+.cmnd-cccd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .cmnd-cccd {
+    flex-direction: row;
+    margin-left: 9px;
+  }
+
+  .cccd1-lable,
+  .cccd1-text {
+    margin-right: 54.2px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cccd2-lable {
+    margin-left: 12.4vw;
+  }
+
+  .cccd2-lable,
+  .cccd2-text {
+    margin-right: 54.2px;
+  }
+}
+
+.nghenghiep-giadinh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .nghenghiep-giadinh {
+    flex-direction: row;
+    margin-left: 9px;
+  }
+
+  .nghenghiep1-lable,
+  .nghenghiep1-text {
+    margin-right: 55.8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nghenghiep2-lable {
+    margin-left: 15.6vw;
+  }
+
+  .nghenghiep2-lable,
+  .nghenghiep2-text {
+    margin-right: 55.8px;
+  }
+}
+
+.noio-giadinh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .noio-giadinh {
+    flex-direction: row;
+    margin-left: 9px;
+  }
+
+  .noio1-lable,
+  .noio1-text {
+    margin-right: 109px;
+  }
+}
+
+@media (min-width: 768px) {
+  .noio2-lable {
+    margin-left: 3.8vw;
+  }
+
+  .noio2-lable,
+  .noio2-text {
+    margin-right: 109px;
+  }
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  margin-top: 10px;
+  margin-bottom: 63px;
+}
+
+@media (min-width: 768px) {
+  .email {
+    flex-direction: row;
+    margin-left: 9px;
+  }
+
+  .email1-lable,
+  .email1-text {
+    margin-right: 109px;
+  }
+}
+
+@media (min-width: 768px) {
+  .email2-lable {
+    margin-left: 15.8vw;
+  }
+
+  .email2-lable,
+  .email2-text {
+    margin-right: 109px;
+  }
+}
